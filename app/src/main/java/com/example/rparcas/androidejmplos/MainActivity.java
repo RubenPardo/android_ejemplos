@@ -27,4 +27,16 @@ public class MainActivity extends AppCompatActivity {
     public void onClickIrPIP(View view) {
         startActivity(new Intent(this,PIPActivity.class));
     }
+
+    public void onClickIrModoOscuro(View view) {
+        startActivity(new Intent(this,ModoOscuro.class));
+    }
+
+    /*public void onClickIrPIP(View view) {
+        startActivity(new Intent(this,PIPActivity.class));
+    }
+
+    public void onClickIrPIP(View view) {
+        startActivity(new Intent(this,PIPActivity.class));
+    }*/
 }
