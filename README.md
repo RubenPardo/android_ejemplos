@@ -2,9 +2,9 @@
 
 
 1. [Picture in Picture](##Picture in Picture)
+2. [Modo nocturno](##Modo nocturno)
 
-
-##Picture in Picture
+## Picture in Picture
 PIP es un tipo especial de modo multiventana que se usa principalmente para actividades que deben estar activas en la pantalla pero que no deben ocupar todo el espacio de la pantalla, como ver videos, videollamadas, navegación, etc. Permite al usuario ver un video en un pequeña ventana anclada en una esquina de la pantalla (de forma predeterminada en la parte inferior derecha) mientras navega entre aplicaciones o explora contenido en la pantalla principal. Android 8.0 (API nivel 26) y superior permite que las actividades se inicien en modo PIP.
 La ventana PIP aparece en la capa superior de la pantalla. Puede arrastrar la ventana PIP a otra ubicación usando algunos conmutadores especiales. Cuando toca la ventana, aparecen dos controles especiales:
 
@@ -21,3 +21,8 @@ Declar el soporte de pip: de forma predeterminada, ninguna actividad tiene habil
 `
 
 [Implementacion](https://github.com/RubenPardo/android_ejemplos/blob/master/app/src/main/java/com/example/rparcas/androidejmplos/PIPActivity.java)
+
+## Modo Nocturno
+Tener dos archivos colors.xml para poder implementar el modo nocturno. Ademas guardar en shared preferences el modo en el que estas para tener constancia al abrir la app
+
+[Implementación](https://github.com/RubenPardo/android_ejemplos/blob/master/app/src/main/java/com/example/rparcas/androidejmplos/ModoOscuro.java)

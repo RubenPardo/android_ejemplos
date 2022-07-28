@@ -4,6 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:context=".ModoOscuro">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/textColor"
+        android:layout_marginEnd="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae eros varius, luctus risus nec, feugiat orci. Mauris efficitur sapien auctor elit rhoncus facilisis. Mauris id nunc luctus, accumsan augue ac, pharetra nulla. Aenean vestibulum, libero aliquam convallis iaculis, sem ex egestas magna, sed hendrerit sem mi ut nisl. Phasellus non bibendum dolor, eget venenatis nibh. Integer ut mauris pretium, scelerisque est id, tincidunt tellus. Nam eget magna aliquet, fringilla enim et, aliquam purus. Maecenas condimentum volutpat maximus. Sed tincidunt turpis vel ex convallis, in bibendum ligula vehicula. Quisque sit amet turpis eleifend, rhoncus lacus a, faucibus nibh. Mauris pulvinar sollicitudin lobortis. Nam fermentum, neque non efficitur consectetur, nisl sem aliquet lorem, a venenatis elit tellus sed magna. Vivamus sodales non nibh ac volutpat. Mauris vulputate maximus libero at gravida. Fusce nec sem ligula."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ToggleButton
+        android:id="@+id/btnToggleDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
