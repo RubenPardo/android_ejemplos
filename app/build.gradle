@@ -38,5 +38,7 @@ dependencies {
 
     // dependencia para la funcionalidad de valorar la aplicacion en la play store
     implementation 'com.github.hotchemi:android-rate:1.0.1'
+    // pop up messages libreary
+    implementation 'com.tapadoo.android:alerter:2.0.4'
 
 }

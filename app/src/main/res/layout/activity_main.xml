@@ -28,4 +28,11 @@
         android:onClick="onClickIrValorarApp"
         android:layout_height="wrap_content"
         android:text="Valorar App" />
+
+    <Button
+        android:id="@+id/btnPopUpMessages"
+        android:layout_width="match_parent"
+        android:onClick="onClickIrPopMessages"
+        android:layout_height="wrap_content"
+        android:text="Pop Up Messages" />
 </LinearLayout>

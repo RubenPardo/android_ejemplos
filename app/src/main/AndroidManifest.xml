@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidEjmplos">
         <activity
+            android:name=".PopUpMessagesActivity"
+            android:exported="true" />
+        <activity
             android:name=".ValorarAplicacionActivity"
             android:exported="true" />
         <activity

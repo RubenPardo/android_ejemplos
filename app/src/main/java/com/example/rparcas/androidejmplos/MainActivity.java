@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this,ValorarAplicacionActivity.class));
     }
 
-    /*public void onClickIrPIP(View view) {
-        startActivity(new Intent(this,PIPActivity.class));
-    }*/
+    public void onClickIrPopMessages(View view) {
+        startActivity(new Intent(this,PopUpMessagesActivity.class));
+    }
 }
