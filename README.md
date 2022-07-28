@@ -12,10 +12,12 @@ La ventana PIP aparece en la capa superior de la pantalla. Puede arrastrar la ve
 - un botón de cierre (una “X” en la esquina superior derecha)
 
 Declar el soporte de pip: de forma predeterminada, ninguna actividad tiene habilitado el modo PIP. Esto debe hacerse a través del archivo Manifest:
+
 `<activity android:name="VideoActivity"
     android:supportsPictureInPicture="true"
     android:configChanges=
         "screenSize|smallestScreenSize|screenLayout|orientation"
-    ...`
+    ...
+`
 
-[Implementacion](https://github.com/RubenPardo/android_ejemplos/blob/main/app/src/main/java/com/example/rparcas/androidejmplos/PIPActivity.java)
+[Implementacion](https://github.com/RubenPardo/android_ejemplos/blob/master/app/src/main/java/com/example/rparcas/androidejmplos/PIPActivity.java)
